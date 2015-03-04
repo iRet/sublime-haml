@@ -107,9 +107,9 @@
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>\{(?=.*\}|.*\|\s*$)</string>
+					<string>\{</string>
 					<key>end</key>
-					<string>\}|$|^(?!.*\|\s*$)</string>
+					<string>\}[^,]</string>
 					<key>name</key>
 					<string>meta.section.attributes.haml</string>
 					<key>patterns</key>
